@@ -1,0 +1,476 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Roboto',
+    sans-serif;
+    width: 1600px;
+}
+body,
+.headernav,
+.filter button{
+    color: #212121;
+}
+header a,
+address a,
+address p{
+    font-style: normal;
+    text-decoration: none;
+}
+.webs{
+    font-family: 'Raleway',
+    sans-serif;
+}
+h1{
+    font-weight: 900;
+    font-size: 44px;
+}
+.servicebtn,
+.theader,
+h2,
+.title,
+.webs,
+.findus span{
+    font-weight: 700;
+}
+.headernav,
+header>div,
+.name,
+.filter button{
+    font-weight: 500;
+}
+.tdata,
+.position,
+address p,
+.footeradd,
+.category{
+    font-weight: 400;
+}
+.webs:hover,
+.webs:focus{
+    color: blueviolet;
+}
+.headernav:hover,
+.mail a:hover,
+.phone a:hover,
+.footeradd:hover,
+.headernav:focus,
+.mail a:focus,
+.phone a:focus,
+.footeradd:focus,
+.webs,
+.servicebtn:hover,
+.servicebtn:focus{
+    color: #2196F3;
+    fill: #2196F3;
+}
+.servicebtn:hover,
+.servicebtn:focus,
+.ourteamfig figure{
+    background-color:#fff;
+}
+.mail a,
+.phone a,
+.tdata,
+.position,
+.category{
+    color: #757575;
+    fill: #757575;
+}
+footer {
+    background-color: #2F303A
+}
+h1,
+.servicebtn,
+address p,
+.filter button:hover,
+.filter button:focus,
+.findus span {
+    color: #fff;
+}
+.servicebtn {
+    border-style: none;
+    padding: 10px 2px;
+    height: 50px;
+    width: 200px;
+}
+.category,
+.servicebtn {
+    line-height: 1.88;
+}
+.filter button,
+.servicebtn,
+.clientsicon div,
+.clientsicon div:hover {
+    font-family: 'Roboto',
+        sans-serif;
+    border-radius: 4px;
+}
+.footeradd {
+    color: #ffffff99;
+}
+.webs {
+    font-size: 26px;
+}
+.headernav,
+.mail a,
+.phone a,
+.theader,
+.tdata,
+address p,
+.footeradd,
+.findus span {
+    font-size: 14px;
+}
+.servicebtn,
+.name,
+.position,
+.filter button,
+.category {
+    font-size: 16px;
+}
+h2 {
+    font-size: 36px;
+}
+.title {
+    font-size: 18px;
+}
+header nav,
+.mail a,
+.phone a,
+.theader,
+h2,
+.name,
+.position,
+.webs,
+.findus span,
+.clients h2 {
+    line-height: 1.17;
+}
+h1 {
+    line-height: 1.36;
+}
+.tdata,
+address p,
+.footeradd {
+    line-height: 1.71;
+}
+.title {
+    line-height: 2;
+}
+.servicebtn,
+.filter button,
+.icon-sobre,
+.icon-telfono,
+.icon-instagram,
+.icon-facebook,
+.icon-linkedin,
+.icon-twitter,
+.icon-logo01, 
+.icon-logo02, 
+.icon-logo03, 
+.icon-logo04, 
+.icon-logo05, 
+.icon-logo06,
+.ourteamicons a:hover,
+.footericons a:hover,
+.clientsicon div,
+.clientsicon div:hover {
+    cursor: pointer;
+}
+.filter button {
+    line-height: 1.63;
+    border:none
+}
+.filter button,
+.ourteam,
+.featicon {
+    background-color: #F5F4FA;
+}
+.filter button:hover,
+.filter button:focus,
+.servicebtn,
+.ourteamicons a:hover,
+.footericons a:hover { 
+    background-color: #2196F3;
+}
+header {
+    box-sizing: content-box;
+    border-bottom: 1px solid #ececec;
+}
+main,
+header,
+header nav,
+.headercontact,
+.wedo, .wedopic,
+.ourteam,
+.ourteamfig,
+.section,
+.footeradd,
+.portfoliofig,
+.container,
+.solutions,
+.features,
+.mail a,
+.phone a,
+.featicon,
+.ourteamicons,
+.clients,
+.clientsicon,
+footer,
+.findus,
+.footericons,
+.ourteamicons a,
+.ourteamicons a:hover,
+.footericons a,
+.footericons a:hover,
+.clientsicon div,
+.clientsicon div:hover {
+    display: flex;
+}
+header,
+header nav,
+.headercontact,
+.wedopic,
+.ourteamfig,
+.portfoliofig,
+.mail a,
+.phone a,
+.features,
+.clientsicon,
+.footericons {
+    justify-content: space-between;
+}
+header nav {
+    width: 531px;
+    padding: 24px 0px 25px 215px;
+}
+header nav,
+.headercontact{
+    box-sizing: inherit;
+}
+main,
+header nav,
+.headercontact,
+.section,
+.container,
+.solutions,
+.wedo,
+.phone a,
+.mail a,
+.clients,
+footer,
+.ourteamicons a,
+.ourteamicons a:hover,
+.footericons a,
+.footericons a:hover,
+.clientsicon div,
+.clientsicon div:hover {
+    align-items: center;
+}
+.headercontact {
+    width: 329px;
+    padding-right: 219px;
+}
+.solutions,
+.wedo,
+.wedopic,
+.ourteam,
+.ourteamfig,
+.section,
+.portfoliofig,
+.clients,
+.clientsicon {
+    width: 100%;
+}
+main,
+.wedo,
+.section,
+.container,
+.solutions,
+.clients,
+.findus {
+    flex-direction: column;
+}
+.container {
+    width: 1200px;
+}    
+.ourteam {
+    padding: 94px 0px;
+}
+h1 {
+    margin-bottom: 30px;
+}
+.section {
+    padding: 94px 0px;
+}
+address {
+    padding: 60px 70px 60px 215px;
+}
+.solutions{
+    background: url('../images/pic01hw04.jpg'), rgba(47,48,58,0.4);
+    padding: 200px 0px;
+    margin-top: 16px;
+}
+.features{
+    margin: 78px 0px 80px 0px;
+}
+.featuressection{
+    width: 22.5%;
+}
+.theader{
+    padding: 30px 0px 10px 0px;
+}
+.ourteam h2,
+.filter,
+.wedo h2,
+.clients h2{
+    padding-bottom: 50px;
+}
+.name,.position, h1{
+    text-align: center;
+}
+.ourteamfig figcaption{
+    padding: 30px 0px;
+}
+.name{
+    padding-bottom: 10px;
+}
+address>.webs{
+    padding-bottom: 9px;
+}
+address p{
+    padding-bottom: 5px;
+}
+.filter button{
+    padding: 6px 24px;
+}
+.portfoliofig{
+    flex-wrap: wrap;
+}
+.portfoliofig figcaption{
+    padding: 20px 24px;
+}
+.title{
+    padding-bottom: 4px;
+}
+.portfoliofig figure{
+    border: 1px solid #eee;
+}
+.row1,.row2{
+    margin-bottom: 30px;
+}
+.ourteamfig figure{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.portfoliofig figure:hover{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.filter button:hover,
+.filter button:focus{
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.icon-sobre{
+    width: 16px;
+    height: 12px;
+}
+.icon-telefono{
+    width: 10px;
+    height: 16px;
+}
+.mail a{
+    width: 161px;
+}
+.phone a{
+    width: 138px;
+}
+.icon-antena,
+.icon-reloj,
+.icon-diagrama,
+.icon-astronauta{
+    width: 70px;
+    height: 70px;
+}
+.wedo{
+    margin-bottom: 94px;
+}
+.ourteamicons{
+    padding-top: 16px;
+    justify-content: space-around;
+}
+.icon-instagram,
+.icon-facebook,
+.icon-twitter,
+.icon-linkedin{
+    width: 20px;
+    height: 20px;
+}
+.icon-logo01,
+.icon-logo02,
+.icon-logo03,
+.icon-logo04,
+.icon-logo05,
+.icon-logo06{
+    width: 106px;
+    height: 60px;
+}
+.findus{
+    width: 206px;
+    padding: 72px 0px 100px 0px;
+}
+.findus span{
+    padding-bottom: 20px;
+}
+.ourteamicons a,
+.ourteamicons a:hover,
+.footericons a,
+.footericons a:hover{
+    width: 44px;
+    height: 44px;
+}
+.ourteamicons a:hover,
+.footericons a,
+.footericons a:hover{
+    border-radius: 50%;
+    fill: #fff;
+
+}
+.footericons a {
+    background-color: #ffffff1a;
+}
+.clientsicon div{
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+}
+.clientsicon div:hover{
+    width: 170px;
+    height: 92px;
+    border: 1px solid #2196F3;
+    fill: #2196F3;
+}
+.clientsicon div:hover,
+.ourteam,
+.featicon,
+.ourteamicons a,
+.ourteamicons a:hover,
+.footericons a,
+.footericons a:hover,
+.clientsicon div{
+    justify-content: center;
+}
+.clientsicon div,
+.ourteamicons a{
+    fill: #AFB1B8;
+}
+.featicon{
+    padding: 25px 0px;
+}
