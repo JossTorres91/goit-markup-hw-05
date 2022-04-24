@@ -31,7 +31,8 @@ h1{
 h2,
 .title,
 .webs,
-.findus span{
+.findus span,
+.wedopic div span{
     font-weight: 700;
 }
 .headernav,
@@ -86,7 +87,8 @@ h1,
 address p,
 .filter button:hover,
 .filter button:focus,
-.findus span {
+.findus span,
+.wedopic div span{
     color: #fff;
 }
 .servicebtn {
@@ -120,7 +122,8 @@ address p,
 .tdata,
 address p,
 .footeradd,
-.findus span {
+.findus span,
+.wedopic div span{
     font-size: 14px;
 }
 .servicebtn,
@@ -145,7 +148,8 @@ h2,
 .position,
 .webs,
 .findus span,
-.clients h2 {
+.clients h2,
+.wedopic div span{
     line-height: 1.17;
 }
 h1 {
@@ -204,6 +208,7 @@ header,
 header nav,
 .headercontact,
 .wedo, .wedopic,
+.wedopic div,
 .ourteam,
 .ourteamfig,
 .section,
@@ -266,7 +271,7 @@ footer,
 .footericons a,
 .footericons a:hover,
 .clientsicon div,
-.clientsicon div:hover {
+.clientsicon div:hover{
     align-items: center;
 }
 .headercontact {
@@ -276,6 +281,7 @@ footer,
 .solutions,
 .wedo,
 .wedopic,
+.wedopic div,
 .ourteam,
 .ourteamfig,
 .section,
@@ -290,7 +296,8 @@ main,
 .container,
 .solutions,
 .clients,
-.findus {
+.findus,
+.wedopic div {
     flex-direction: column;
 }
 .container {
@@ -328,7 +335,8 @@ address {
 .clients h2{
     padding-bottom: 50px;
 }
-.name,.position, h1{
+.name,.position, h1,
+.wedopic div span{
     text-align: center;
 }
 .ourteamfig figcaption{
@@ -397,7 +405,6 @@ address p{
 .icon-diagrama,
 .icon-astronauta{
     width: 70px;
-    height: 70px;
 }
 .wedo{
     margin-bottom: 94px;
@@ -473,4 +480,26 @@ address p{
 }
 .featicon{
     padding: 25px 0px;
+}
+.wedopic div span{
+    background: rgba(47, 48, 58, 0.8);
+    width: 370px;
+    box-sizing: border-box;
+    padding: 27px 79px;
+    position: relative;
+    top: -70px;
+    z-index: 1;
+}
+.icon-antena,
+.icon-reloj,
+.icon-diagrama,
+.icon-astronauta,
+.wedopic div span{
+    height: 70px;
+}
+.wedopic div{
+    height: 294px;
+}
+.wedopic div img{
+    z-index: 0;
 }
