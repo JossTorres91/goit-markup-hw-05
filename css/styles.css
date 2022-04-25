@@ -1,6 +1,6 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0%;
+    padding: 0%;
 }
 body{
     font-family: 'Roboto',
@@ -29,10 +29,11 @@ h1{
 .servicebtn,
 .theader,
 h2,
-.title,
 .webs,
 .findus span,
-.wedopic div span{
+.wedopic div span,
+.title,
+.titleb{
     font-weight: 700;
 }
 .headernav,
@@ -46,7 +47,8 @@ header>div,
 .position,
 address p,
 .footeradd,
-.category{
+.category,
+.window{
     font-weight: 400;
 }
 .webs:hover,
@@ -89,7 +91,8 @@ address p,
 .filter button:hover,
 .filter button:focus,
 .findus span,
-.wedopic div span{
+.wedopic div span,
+.window{
     color: #fff;
 }
 .servicebtn {
@@ -98,8 +101,8 @@ address p,
     height: 50px;
     width: 200px;
 }
-.category,
-.servicebtn {
+.servicebtn,
+.category {
     line-height: 1.88;
 }
 .filter button,
@@ -132,13 +135,15 @@ address p,
 .name,
 .position,
 .filter button,
-.category {
+.category,
+.titleb{
     font-size: 16px;
 }
 h2 {
     font-size: 36px;
 }
-.title {
+.title,
+.window{
     font-size: 18px;
 }
 header nav,
@@ -162,9 +167,6 @@ address p,
 .footeradd {
     line-height: 1.71;
 }
-.title {
-    line-height: 2;
-}
 .servicebtn,
 .filter button,
 .icon-sobre,
@@ -182,12 +184,17 @@ address p,
 .ourteamicons a:hover,
 .footericons a:hover,
 .clientsicon div,
-.clientsicon div:hover {
+.clientsicon div:hover,
+.figdata:hover {
     cursor: pointer;
 }
 .filter button {
     line-height: 1.63;
     border:none
+}
+.title,
+.titleb{
+    line-height: 2;
 }
 .filter button,
 .ourteam,
@@ -198,7 +205,7 @@ address p,
 .filter button:focus,
 .servicebtn,
 .ourteamicons a:hover,
-.footericons a:hover { 
+.footericons a:hover{ 
     background-color: #2196F3;
 }
 header {
@@ -215,7 +222,6 @@ header nav,
 .ourteamfig,
 .section,
 .footeradd,
-.portfoliofig,
 .container,
 .solutions,
 .features,
@@ -234,7 +240,10 @@ footer,
 .footericons a:hover,
 .clientsicon div,
 .clientsicon div:hover,
-.active::after {
+.active::after,
+.row1,
+.row2,
+.row3{
     display: flex;
 }
 header,
@@ -242,12 +251,14 @@ header nav,
 .headercontact,
 .wedopic,
 .ourteamfig,
-.portfoliofig,
 .mail a,
 .phone a,
 .features,
 .clientsicon,
-.footericons {
+.footericons,
+.row1,
+.row2,
+.row3 {
     justify-content: space-between;
 }
 header nav {
@@ -294,9 +305,12 @@ footer,
 .ourteam,
 .ourteamfig,
 .section,
-.portfoliofig,
 .clients,
-.clientsicon {
+.clientsicon,
+.row1,
+.row2,
+.row3,
+.figdata figcaption{
     width: 100%;
 }
 main,
@@ -363,31 +377,11 @@ address p{
 .filter button{
     padding: 6px 24px;
 }
-.portfoliofig{
-    flex-wrap: wrap;
-}
-.portfoliofig figcaption{
-    padding: 20px 24px;
-}
-.title{
-    padding-bottom: 4px;
-}
-.portfoliofig figure{
-    border: 1px solid #eee;
-}
-.row1,.row2{
-    margin-bottom: 30px;
-}
 .ourteamfig figure{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-}
-.portfoliofig figure:hover{
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
-    0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .filter button:hover,
 .filter button:focus{
@@ -492,12 +486,14 @@ address p{
 }
 .wedopic div span{
     background: rgba(47, 48, 58, 0.8);
-    width: 370px;
     box-sizing: border-box;
     padding: 27px 79px;
     position: relative;
     top: -70px;
-    z-index: 1;
+}
+.wedo div span,
+.figdata{
+    width: 370px;
 }
 .icon-antena,
 .icon-reloj,
@@ -506,11 +502,9 @@ address p{
 .wedopic div span{
     height: 70px;
 }
-.wedopic div{
+.wedopic div,
+.window{
     height: 294px;
-}
-.wedopic div img{
-    z-index: 0;
 }
 .active{
     color: #2196F3;
@@ -521,4 +515,36 @@ address p{
     border: 2px solid #2196F3;
     border-radius: 2px;
     margin-top: 28px;
+}
+.row1,.row2{
+    height: 434px;
+}
+.figdata{
+    height: 404px;
+    border: 1px solid #eee;
+    overflow: hidden;
+}
+.figdata figcaption{
+    height: 110px;
+    padding: 20px 24px;
+    position: relative;
+    z-index: 2;
+    background-color: #FFFFFF;
+}
+.window{
+    line-height: 1.55;
+    padding: 63px 24px;
+    background-color: hsl(207, 90%, 54%, 90%);
+    position: relative;
+    top: -110px;
+    z-index: 1;
+    transition: 250ms cubic-bezier(0.4,0,0.2,1);
+}
+.figdata:hover{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.figdata:hover .window{
+    transform: translateY(-299px);
 }
