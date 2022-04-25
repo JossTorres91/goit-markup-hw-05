@@ -36,6 +36,7 @@ h2,
     font-weight: 700;
 }
 .headernav,
+.active,
 header>div,
 .name,
 .filter button{
@@ -116,6 +117,7 @@ address p,
     font-size: 26px;
 }
 .headernav,
+.active,
 .mail a,
 .phone a,
 .theader,
@@ -231,7 +233,8 @@ footer,
 .footericons a,
 .footericons a:hover,
 .clientsicon div,
-.clientsicon div:hover {
+.clientsicon div:hover,
+.active::after {
     display: flex;
 }
 header,
@@ -249,7 +252,13 @@ header nav,
 }
 header nav {
     width: 531px;
-    padding: 24px 0px 25px 215px;
+    padding-left: 215px;
+}
+.webs{
+    padding: 25px 0px;
+}
+.headernav{
+    padding: 32px 0px;
 }
 header nav,
 .headercontact{
@@ -502,4 +511,14 @@ address p{
 }
 .wedopic div img{
     z-index: 0;
+}
+.active{
+    color: #2196F3;
+    padding-top: 31px;
+}
+.active::after{
+    content: "";
+    border: 2px solid #2196F3;
+    border-radius: 2px;
+    margin-top: 28px;
 }
