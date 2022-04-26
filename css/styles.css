@@ -1,32 +1,38 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
 }
-body{
+
+body {
     font-family: 'Roboto',
-    sans-serif;
+        sans-serif;
     width: 1600px;
     box-sizing: border-box;
 }
+
 body,
 .headernav,
-.filter button{
+.filter button {
     color: #212121;
 }
+
 header a,
 address a,
-address p{
+address p {
     font-style: normal;
     text-decoration: none;
 }
-.webs{
+
+.webs {
     font-family: 'Raleway',
-    sans-serif;
+        sans-serif;
 }
-h1{
+
+h1 {
     font-weight: 900;
     font-size: 44px;
 }
+
 .servicebtn,
 .theader,
 h2,
@@ -34,28 +40,32 @@ h2,
 .findus span,
 .wedopic div span,
 .title,
-.titleb{
+.titleb {
     font-weight: 700;
 }
+
 .headernav,
 .active,
 header>div,
 .name,
-.filter button{
+.filter button {
     font-weight: 500;
 }
+
 .tdata,
 .position,
 address p,
 .footeradd,
 .category,
-.window{
+.window {
     font-weight: 400;
 }
+
 .webs:hover,
-.webs:focus{
+.webs:focus {
     color: blueviolet;
 }
+
 .headernav:hover,
 .mail a:hover,
 .phone a:hover,
@@ -66,26 +76,31 @@ address p,
 .footeradd:focus,
 .webs,
 .servicebtn:hover,
-.servicebtn:focus{
+.servicebtn:focus {
     color: #2196F3;
     fill: #2196F3;
 }
+
 .servicebtn:hover,
 .servicebtn:focus,
-.ourteamfig figure{
-    background-color:#fff;
+.ourteamfig figure,
+.modal {
+    background-color: #fff;
 }
+
 .mail a,
 .phone a,
 .tdata,
 .position,
-.category{
+.category {
     color: #757575;
     fill: #757575;
 }
+
 footer {
     background-color: #2F303A
 }
+
 h1,
 .servicebtn,
 address p,
@@ -93,33 +108,45 @@ address p,
 .filter button:focus,
 .findus span,
 .wedopic div span,
-.window{
+.window {
     color: #fff;
 }
+
 .servicebtn {
     border-style: none;
     padding: 10px 2px;
     height: 50px;
     width: 200px;
 }
+
 .servicebtn,
 .category {
     line-height: 1.88;
 }
+
 .filter button,
 .servicebtn,
 .clientsicon div,
 .clientsicon div:hover {
     font-family: 'Roboto',
         sans-serif;
+}
+.modal,
+.filter button,
+.servicebtn,
+.clientsicon div,
+.clientsicon div:hover{
     border-radius: 4px;
 }
+
 .footeradd {
     color: #ffffff99;
 }
+
 .webs {
     font-size: 26px;
 }
+
 .headernav,
 .active,
 .mail a,
@@ -129,24 +156,28 @@ address p,
 address p,
 .footeradd,
 .findus span,
-.wedopic div span{
+.wedopic div span {
     font-size: 14px;
 }
+
 .servicebtn,
 .name,
 .position,
 .filter button,
 .category,
-.titleb{
+.titleb {
     font-size: 16px;
 }
+
 h2 {
     font-size: 36px;
 }
+
 .title,
-.window{
+.window {
     font-size: 18px;
 }
+
 header nav,
 .mail a,
 .phone a,
@@ -157,17 +188,20 @@ h2,
 .webs,
 .findus span,
 .clients h2,
-.wedopic div span{
+.wedopic div span {
     line-height: 1.17;
 }
+
 h1 {
     line-height: 1.36;
 }
+
 .tdata,
 address p,
 .footeradd {
     line-height: 1.71;
 }
+
 .servicebtn,
 .filter button,
 .icon-sobre,
@@ -176,11 +210,11 @@ address p,
 .icon-facebook,
 .icon-linkedin,
 .icon-twitter,
-.icon-logo01, 
-.icon-logo02, 
-.icon-logo03, 
-.icon-logo04, 
-.icon-logo05, 
+.icon-logo01,
+.icon-logo02,
+.icon-logo03,
+.icon-logo04,
+.icon-logo05,
 .icon-logo06,
 .ourteamicons a:hover,
 .footericons a:hover,
@@ -189,35 +223,42 @@ address p,
 .figdata:hover {
     cursor: pointer;
 }
+
 .filter button {
     line-height: 1.63;
-    border:none
+    border: none
 }
+
 .title,
-.titleb{
+.titleb {
     line-height: 2;
 }
+
 .filter button,
 .ourteam,
 .featicon {
     background-color: #F5F4FA;
 }
+
 .filter button:hover,
 .filter button:focus,
 .servicebtn,
 .ourteamicons a:hover,
-.footericons a:hover{ 
+.footericons a:hover {
     background-color: #2196F3;
 }
+
 header {
     box-sizing: content-box;
     border-bottom: 1px solid #ececec;
 }
+
 main,
 header,
 header nav,
 .headercontact,
-.wedo, .wedopic,
+.wedo,
+.wedopic,
 .wedopic div,
 .ourteam,
 .ourteamfig,
@@ -244,9 +285,12 @@ footer,
 .active::after,
 .row1,
 .row2,
-.row3{
+.row3,
+.backdrop,
+.close {
     display: flex;
 }
+
 header,
 header nav,
 .headercontact,
@@ -262,20 +306,25 @@ header nav,
 .row3 {
     justify-content: space-between;
 }
+
 header nav {
     width: 531px;
     padding-left: 215px;
 }
-.webs{
+
+.webs {
     padding: 25px 0px;
 }
-.headernav{
+
+.headernav {
     padding: 32px 0px;
 }
+
 header nav,
-.headercontact{
+.headercontact {
     box-sizing: inherit;
 }
+
 main,
 header nav,
 .headercontact,
@@ -292,13 +341,17 @@ footer,
 .footericons a,
 .footericons a:hover,
 .clientsicon div,
-.clientsicon div:hover{
+.clientsicon div:hover,
+.backdrop,
+.close {
     align-items: center;
 }
+
 .headercontact {
     width: 329px;
     padding-right: 219px;
 }
+
 .solutions,
 .wedo,
 .wedopic,
@@ -311,9 +364,11 @@ footer,
 .row1,
 .row2,
 .row3,
-.figdata figcaption{
+.figdata figcaption,
+.backdrop {
     width: 100%;
 }
+
 main,
 .wedo,
 .section,
@@ -324,150 +379,191 @@ main,
 .wedopic div {
     flex-direction: column;
 }
+
 .container {
     width: 1200px;
-}    
+}
+
 .ourteam {
     padding: 94px 0px;
 }
+
 h1 {
     margin-bottom: 30px;
 }
+
 .section {
     padding: 94px 0px;
 }
+
 address {
     padding: 60px 70px 60px 215px;
 }
-.solutions{
-    background: url('../images/pic01hw04.jpg'), rgba(47,48,58,0.4);
+
+.solutions {
+    background: url('../images/pic01hw04.jpg'), rgba(47, 48, 58, 0.4);
     padding: 200px 0px;
     margin-top: 16px;
 }
-.features{
+
+.features {
     margin: 78px 0px 80px 0px;
 }
-.featuressection{
+
+.featuressection {
     width: 22.5%;
 }
-.theader{
+
+.theader {
     padding: 30px 0px 10px 0px;
 }
+
 .ourteam h2,
 .filter,
 .wedo h2,
-.clients h2{
+.clients h2 {
     padding-bottom: 50px;
 }
-.name,.position, h1,
-.wedopic div span{
+
+.name,
+.position,
+h1,
+.wedopic div span {
     text-align: center;
 }
-.ourteamfig figcaption{
+
+.ourteamfig figcaption {
     padding: 30px 0px;
 }
-.name{
+
+.name {
     padding-bottom: 10px;
 }
-address>.webs{
+
+address>.webs {
     padding-bottom: 9px;
 }
-address p{
+
+address p {
     padding-bottom: 5px;
 }
-.filter button{
+
+.filter button {
     padding: 6px 24px;
 }
-.ourteamfig figure{
+
+.ourteamfig figure {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+        0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
+
 .filter button:hover,
-.filter button:focus{
+.filter button:focus {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-    0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+        0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-.icon-sobre{
+
+.icon-sobre {
     width: 16px;
     height: 12px;
 }
-.icon-telefono{
+
+.icon-telefono {
     width: 10px;
     height: 16px;
 }
-.mail a{
+
+.mail a {
     width: 161px;
 }
-.phone a{
+
+.phone a {
     width: 138px;
 }
+
 .icon-antena,
 .icon-reloj,
 .icon-diagrama,
-.icon-astronauta{
+.icon-astronauta {
     width: 70px;
 }
-.wedo{
+
+.wedo {
     margin-bottom: 94px;
 }
-.ourteamicons{
+
+.ourteamicons {
     padding-top: 16px;
     justify-content: space-around;
 }
+
 .icon-instagram,
 .icon-facebook,
 .icon-twitter,
-.icon-linkedin{
+.icon-linkedin {
     width: 20px;
     height: 20px;
 }
+
 .icon-logo01,
 .icon-logo02,
 .icon-logo03,
 .icon-logo04,
 .icon-logo05,
-.icon-logo06{
+.icon-logo06 {
     width: 106px;
     height: 60px;
 }
-.findus{
+
+.findus {
     width: 206px;
     padding: 72px 0px 100px 0px;
 }
-.findus span{
+
+.findus span {
     padding-bottom: 20px;
 }
+
 .ourteamicons a,
 .ourteamicons a:hover,
 .footericons a,
-.footericons a:hover{
+.footericons a:hover {
     width: 44px;
     height: 44px;
 }
+
+.ourteamicons a:hover,
+.footericons a,
+.footericons a:hover {
+    fill: #fff;
+
+}
+.close,
 .ourteamicons a:hover,
 .footericons a,
 .footericons a:hover{
     border-radius: 50%;
-    fill: #fff;
-
 }
 .footericons a {
     background-color: #ffffff1a;
 }
-.clientsicon div{
+
+.clientsicon div {
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
 }
-.clientsicon div:hover{
+
+.clientsicon div:hover {
     width: 170px;
     height: 92px;
     border: 1px solid #2196F3;
     fill: #2196F3;
 }
+
 .clientsicon div:hover,
 .ourteam,
 .featicon,
@@ -475,117 +571,133 @@ address p{
 .ourteamicons a:hover,
 .footericons a,
 .footericons a:hover,
-.clientsicon div{
+.clientsicon div,
+.backdrop,
+.close {
     justify-content: center;
 }
+
 .clientsicon div,
-.ourteamicons a{
+.ourteamicons a {
     fill: #AFB1B8;
 }
-.featicon{
+
+.featicon {
     padding: 25px 0px;
 }
-.wedopic div span{
+
+.wedopic div span {
     background: rgba(47, 48, 58, 0.8);
     box-sizing: border-box;
     padding: 27px 79px;
-    position: relative;
     top: -70px;
 }
+.wedopic div span,
+.figdata figcaption,
+.window,
+.close{
+    position: relative;
+}
 .wedo div span,
-.figdata{
+.figdata {
     width: 370px;
 }
+
 .icon-antena,
 .icon-reloj,
 .icon-diagrama,
 .icon-astronauta,
-.wedopic div span{
+.wedopic div span {
     height: 70px;
 }
+
 .wedopic div,
-.window{
+.window {
     height: 294px;
 }
-.active{
+
+.active {
     color: #2196F3;
     padding-top: 31px;
 }
-.active::after{
+
+.active::after {
     content: "";
     border: 2px solid #2196F3;
     border-radius: 2px;
     margin-top: 28px;
 }
-.row1,.row2{
+
+.row1,
+.row2 {
     height: 434px;
 }
-.figdata{
+
+.figdata {
     height: 404px;
     border: 1px solid #eee;
     overflow: hidden;
 }
-.figdata figcaption{
+
+.figdata figcaption {
     height: 110px;
     padding: 20px 24px;
-    position: relative;
     z-index: 2;
     background-color: #FFFFFF;
 }
-.window{
+
+.window {
     line-height: 1.55;
     padding: 63px 24px;
     background-color: hsl(207, 90%, 54%, 90%);
-    position: relative;
     top: -110px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.backdrop,
+.window{
     z-index: 1;
-    transition: 250ms cubic-bezier(0.4,0,0.2,1);
 }
-.figdata:hover{
+.figdata:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
-    0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+        0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.figdata:hover .window{
+
+.figdata:hover .window {
     transform: translateY(-299px);
 }
-.backdrop.is-hidden{
+
+.backdrop.is-hidden {
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
+    transform: scale(150%);
 }
-.backdrop{
+.backdrop {
     visibility: visible;
-    width: 100%;
+    opacity: 1;
     height: 100%;
     position: fixed;
+    transform: scale(100%);
     top: 0px;
     left: 0px;
-    z-index: 1;
     background: rgba(0, 0, 0, 0.2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}    
-.modal{
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal {
     width: 528px;
     height: 581px;
-    background-color: #fff;
-    border-radius: 4px;
 }
-.close{
+.close {
     width: 30px;
     height: 30px;
     border: 1px solid #0000001a;
-    border-radius: 50%;
-    position: relative;
     left: 490px;
     top: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-.icon-vector{
+.icon-vector {
     fill: #000;
     width: 11px;
     height: 11px;
